@@ -13,7 +13,7 @@ public class ServerTest {
 
 		public static void main(String[] args) {
 			
-			String sAddress = "http://10.130.67.224:8089/sdm_test_ws/DsCalculation";
+			String sAddress = "http://***.***.***.***:****/sdm_test_ws/DsCalculation";
 			Endpoint.publish(sAddress, new DsCalculationImpl());
 			System.out.println("publish successfully!!!");
 		}
